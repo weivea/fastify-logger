@@ -1,0 +1,25 @@
+{
+  "name": "fastify-logger",
+  "version": "1.0.0",
+  "description": "fastify 框架的logger",
+  "main": "lib/logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "weijianli",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "fast-json-parse": "^1.0.3",
+    "mkdirp": "^0.5.1",
+    "pino-multi-stream": "^3.1.2",
+    "protocol-buffers": "^4.0.4",
+    "split2": "^2.2.0"
+  },
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "fastify": "^1.1.1"
+  }
+}
